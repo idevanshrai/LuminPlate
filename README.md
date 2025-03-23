@@ -15,7 +15,7 @@ LuminPlate aims to provide a cost-effective alternative to expensive speed camer
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/LuminPlate.git
+   git clone https://github.com/idevanshrai/LuminPlate.git
    cd LuminPlate
    ```
 2. Install dependencies:
