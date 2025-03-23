@@ -8,6 +8,9 @@ LuminPlate is an OCR-based license plate recognition system designed to extract 
 - **Post-Processing**: Intelligent post-processing for enhanced accuracy and error correction.
 - **Easy Integration**: Simple CLI-based interface for quick testing and deployment.
 
+## Goal
+LuminPlate aims to provide a cost-effective alternative to expensive speed cameras by utilizing AI-based license plate recognition. This system can be used for enforcing speed limits and monitoring traffic violations without the need for high-cost infrastructure.
+
 ## Installation
 
 1. Clone the repository:
@@ -40,9 +43,17 @@ python app.py --image images.jpeg
 - The project uses a YOLO-based model (`license_plate_detector.pt`) for detecting U.S. license plates.
 - The OCR system extracts the plate number, state, and registration details.
 
+## Future Enhancements
+- **Speed Detection**: Integrate speed estimation methods to identify vehicles exceeding speed limits.
+- **Database Integration**: Store detected license plate information in a database for law enforcement or monitoring purposes.
+- **Operator Web Application**: Develop a web-based interface for operators to:
+  - Review detected license plates.
+  - Verify and flag suspected violations.
+  - Generate fines based on applicable traffic laws.
+  - Monitor vehicles involved in overspeeding incidents.
+
 ## Contributing
 Contributions are welcome! Feel free to submit pull requests or report issues to improve the project.
 
 ## License
-This project is licensed under the **MIT License**. 
-
+This project is licensed under the **MIT License**.
